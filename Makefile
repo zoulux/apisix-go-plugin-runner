@@ -27,6 +27,9 @@ ifeq ($(OSARCH), x86_64)
 	OSARCH = amd64
 endif
 
+OSNAME=linux
+OSARCH=amd64
+
 VERSYM=main._buildVersion
 GITSHASYM=main._buildGitRevision
 BUILDOSSYM=main._buildOS
